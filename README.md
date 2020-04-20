@@ -36,14 +36,15 @@ This settings-package contains replos commands as external tool and key-bindings
 ### Commands
 `replos <Command> <CommandArgs>`
 
-| Command       | Description |
-| ------------- | ----------- |
-|  [call](#call)| Calls first named function<sup>1</sup> at location|
-|  [declare](#declare)| Declares word at location as variable|
-|  [find](#find)| Finds and evaluates $NodeType$ at location|
-|  [load](#load)| Loads file, line or word at location|
-|  [repl](#repl)| Pipes input unprocessed to the repl|
-|  [test](#test)| Generates test for function at location|
+| Command | Description |
+| --- | --- |
+| [call](#call) | Calls first named function<sup>1</sup> at location |
+| [declare](#declare) | Declares word at location as variable |
+| [find](#find) | Finds and evaluates $NodeType$ at location |
+| [load](#load) | Loads file, line or word at location |
+| [repl](#repl) | Pipes input unprocessed to the repl |
+| [test](#test) | Generates test for function at location |
+
 [1] Non-anonymous functions or anonymous functions which are immediately assigned to a variable are considered named functions.
 
 ### call 
