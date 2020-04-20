@@ -2,12 +2,11 @@
 
 REPLos is a tool that enables developers to keep working in a single context.
 
-Without REPLos, developers need to switch contexts every time they verify their codes correctness (by checking the browser or rerunning the program).
+Without REPLos, you need to switch context every time you verify your codes correctness.
 
-With REPLos, developers write a short unit of functionality and immediately check if their assumptions about the just written code are correct, 
-by evaluating just the code they have just written and not leaving their IDE.
+With REPLos, you write a short unit of functionality and immediately check for mistakes, by evaluating just the code you have written and not leaving your IDE.
 
-Additional benefit: The inputs and outputs of those units of functionality can be used to generate unit tests.
+Additional benefit: You can use the inputs you provided to generate unit tests.
 
 ![](doc/replos.gif)
 
