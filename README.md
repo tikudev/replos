@@ -1,6 +1,5 @@
-# REPLos - repl on steroids for javascript and typescript
+## REPLos the repl on steroids for javascript and typescript
 
-## Reasoning
 REPLos is a tool that enables developers to keep working in a single context.
 
 Without REPLos, developers need to switch contexts every time they verify their codes correctness (by checking the browser or rerunning the program).
