@@ -1,0 +1,71 @@
+<keymap version="1" name="replos" parent="Mac OS X 10.5+">
+  <action id="Tool_replos find_expression">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="e" />
+  </action>
+  <action id="Tool_replos find_function">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="f" />
+  </action>
+  <action id="Tool_replos find_variable">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="v" />
+  </action>
+  <action id="Tool_replos load_file">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="i" />
+  </action>
+  <action id="Tool_replos load_line">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="l" />
+  </action>
+  <action id="Tool_replos load_range">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="r" />
+  </action>
+  <action id="Tool_replos load_word">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="w" />
+  </action>
+  <action id="Tool_replos_call">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="c" />
+  </action>
+  <action id="Tool_replos_declare">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="d" />
+  </action>
+  <action id="Tool_replos_repl .clear">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="q" />
+  </action>
+  <action id="Tool_replos_replos-call">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="c" />
+  </action>
+  <action id="Tool_replos_replos-clear">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="q" />
+  </action>
+  <action id="Tool_replos_replos-declare">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="d" />
+  </action>
+  <action id="Tool_replos_replos-expression">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="e" />
+  </action>
+  <action id="Tool_replos_replos-file">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="i" />
+  </action>
+  <action id="Tool_replos_replos-function">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="f" />
+  </action>
+  <action id="Tool_replos_replos-line">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="l" />
+  </action>
+  <action id="Tool_replos_replos-server">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="s" />
+  </action>
+  <action id="Tool_replos_replos-test">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="t" />
+  </action>
+  <action id="Tool_replos_replos-variable">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="v" />
+  </action>
+  <action id="Tool_replos_replos-word">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="w" />
+  </action>
+  <action id="Tool_replos_server">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="s" />
+  </action>
+  <action id="Tool_replos_test">
+    <keyboard-shortcut first-keystroke="ctrl meta p" second-keystroke="t" />
+  </action>
+</keymap>

@@ -1,0 +1,33 @@
+{
+  "name": "replos",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "bin": {
+    "replos": "./bin/replos.js",
+    "replos-server": "./bin/replos-server.js"
+  },
+  "scripts": {
+    "test:e2e": "jest -c jest.config.e2e.js --passWithNoTests",
+    "test:unit": "jest -c jest.config.unit.js --passWithNoTests",
+    "test": "npm run test:unit && npm run test:e2e"
+  },
+  "keywords": [
+    "repl"
+  ],
+  "author": "Tim Kutscha",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/generator": "7.9.5",
+    "@babel/parser": "7.9.4",
+    "@babel/plugin-transform-typescript": "^7.9.4",
+    "@babel/traverse": "7.9.5",
+    "babel-plugin-transform-es2015-modules-commonjs-simple": "6.7.4",
+    "source-map": "^0.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "jest": "25.3.0"
+  }
+}
