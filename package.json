@@ -1,11 +1,12 @@
 {
   "name": "replos",
   "version": "1.0.0-alpha",
-  "description": "",
+  "description": "REPL on steroids for typescript and javascript",
   "bin": {
     "replos": "./bin/replos.js",
     "replos-server": "./bin/replos-server.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test:e2e": "jest -c jest.config.e2e.js --passWithNoTests",
     "test:unit": "npm run build:test:unit && jest -c jest.config.unit.js --passWithNoTests",
@@ -14,7 +15,9 @@
     "build:test:unit": "tsc --build tsconfig.test.json"
   },
   "keywords": [
-    "repl"
+    "repl",
+    "typescript",
+    "javascript"
   ],
   "author": "Tim Kutscha",
   "license": "MIT",
