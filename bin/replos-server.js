@@ -2,7 +2,7 @@
 
 //Hack to activate --experimental-repl-await
 if (process.env.replosChild) {
-    const {startReplosServers} = require('../src/server');
+    const {startReplosServers} = require('../dist/server');
     startReplosServers(process.env.replosArgs);
 } else {
     const {spawn} = require('child_process');

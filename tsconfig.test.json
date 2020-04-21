@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.test.ts",
+    "src/index.d.ts"
+  ]
+}
