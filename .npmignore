@@ -1,0 +1,12 @@
+.idea
+src/**/*.js
+src/**/*.js.map
+todo.md
+doc
+e2e
+src
+jest.config.e2e.js
+jest.config.unit.js
+tsconfig.json
+tsconfig.test.json
+ide-integration
