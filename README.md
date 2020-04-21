@@ -1,14 +1,12 @@
-# REPLos - repl on steroids for javascript and typescript
+## REPLos the repl on steroids for javascript and typescript
 
-## Reasoning
 REPLos is a tool that enables developers to keep working in a single context.
 
-Without REPLos, developers need to switch contexts every time they verify their codes correctness (by checking the browser or rerunning the program).
+Without REPLos, you need to switch context every time you verify your codes correctness.
 
-With REPLos, developers write a short unit of functionality and immediately check if their assumptions about the just written code are correct, 
-by evaluating just the code they have just written and not leaving their IDE.
+With REPLos, you write a short unit of functionality and immediately check for mistakes, by evaluating just the code you have written and not leaving your IDE.
 
-Additional benefit: The inputs and outputs of those units of functionality can be used to generate unit tests.
+Additional benefit: You can use the inputs you provided to generate unit tests.
 
 ![](doc/replos.gif)
 
@@ -36,14 +34,15 @@ This settings-package contains replos commands as external tool and key-bindings
 ### Commands
 `replos <Command> <CommandArgs>`
 
-| Command       | Description |
-| ------------- | ----------- |
-|  [call](#call)| Calls first named function<sup>1</sup> at location|
-|  [declare](#declare)| Declares word at location as variable|
-|  [find](#find)| Finds and evaluates $NodeType$ at location|
-|  [load](#load)| Loads file, line or word at location|
-|  [repl](#repl)| Pipes input unprocessed to the repl|
-|  [test](#test)| Generates test for function at location|
+| Command | Description |
+| --- | --- |
+| [call](#call) | Calls first named function<sup>1</sup> at location |
+| [declare](#declare) | Declares word at location as variable |
+| [find](#find) | Finds and evaluates $NodeType$ at location |
+| [load](#load) | Loads file, line or word at location |
+| [repl](#repl) | Pipes input unprocessed to the repl |
+| [test](#test) | Generates test for function at location |
+
 [1] Non-anonymous functions or anonymous functions which are immediately assigned to a variable are considered named functions.
 
 ### call 
