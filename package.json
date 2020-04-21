@@ -1,6 +1,6 @@
 {
   "name": "replos",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1-alpha",
   "description": "REPL on steroids for typescript and javascript",
   "bin": {
     "replos": "./bin/replos.js",
